@@ -18,27 +18,34 @@ Keep up with the latest news, release announcements by subscribing to [wolfengin
 ## Features
 * Auto-Parallelization 
 * Auto-Generator
-    * Enabling the software to use low memory footprint for heavy input data, are supported.
+    * Enabling the software to use low memory footprint for heavy input data
+    * Duplicating list as inputs in order to match parallelized User-tasks
+    * Combining duplicated list from parallelized User-tasks
+    * Avoiding deadlock
 * Auto-IO-Cache
-    * Caching the task based on its input and output data ensures the fast computation and also pause and continue of the long-running task pipelines.
+    * Caching the task based on its input and output data ensures the fast computation 
+    * Pausing and continuing automatically in the long-running task workflow
+    * Using efficient decompression algorithms makes faster reading and operating time 
 * Auto-Scheduler 
-    * Scrutinizing the most adaptive optimization techniques based on  user's computing environment.
+    * Scrutinizing the most adaptive optimization techniques based on user's computing environment.
 
 ## How does it works?
 
 ## WolfEngine UI
 **WolfEngine UI** enables users to easily apply **WolfEngine Features** into their exploratory data analysis projects.
 
-**Functions**
+**Functions and Systems**
 * Flowchart Function
-    * Automated flowchart based on user's original source code 
+    * Automade flowchart based on user's original source code 
     * Customization flowchart by drag and drop on source code
         * Auto-Parallelization 
-        * Auto-Generation 
-* Debugging & Monitoring Function 
+        * Auto-Generator 
+* Debugging Function
     * Output Console
-    * CPU Usage graph
-    * RAM Usage graph
+    * Processors Controllers
+* Monitoring Function 
+    * Real-Time CPU Usage Graph
+    * Real-Time RAM Usage Graph
     * Operating Time
     * Run History 
         * version 
