@@ -1,11 +1,11 @@
 # WolfEngine
 ## About
 **WolfEngine** is an open source task process optimizing engine for exploratory data analysis using workflow design. 
-With an automated system operation, combining dynamic optimization and asynchronous calculation techniques give rise to faster calculation speed. Wolf Engine  also enables you to automatically optimize your software without revising original source code.
+With an automated system operation, combining dynamic optimization and asynchronous parallel calculation techniques give rise to faster calculation speed. Wolf Engine  also enables you to automatically optimize your software without revising original source code.
 
 WolfEngine is being actively developed by NoteSquare Inc. which first started the idea to combine many different machine learning algorithms in different libraries. Now, NoteSquare Inc. uses WolfEngine in many task-oriented jobs in various environment.
 
-Keep up with the latest news, release announcements by subscribing to [wolfengine@notesquare.co.kr]
+Keep up with the latest news, release announcements by subscribing to [wolfengine@notesquare.co.kr]().
 
 ## Characteristics
 * Dramatically increase calculation speed 
@@ -15,13 +15,16 @@ Keep up with the latest news, release announcements by subscribing to [wolfengin
 * **No NEED** to revise original source code 
 * **No NEED** to learn optimization skills 
 
+## How does it works?
+
 ## Features
 * Auto-Parallelization 
+    *  
 * Auto-Generator
+    * Using asynchronous parallel calculation techiniques to avoid deadlock
     * Enabling the software to use low memory footprint for heavy input data
     * Duplicating list as inputs in order to match parallelized User-tasks
-    * Combining duplicated list from parallelized User-tasks
-    * Avoiding deadlock
+    * Combining duplicated list from parallelized User-tasks    
 * Auto-IO-Cache
     * Caching the task based on its input and output data ensures the fast computation 
     * Pausing and continuing automatically in the long-running task workflow
@@ -29,15 +32,13 @@ Keep up with the latest news, release announcements by subscribing to [wolfengin
 * Auto-Scheduler 
     * Scrutinizing the most adaptive optimization techniques based on user's computing environment.
 
-## How does it works?
-
-## WolfEngine UI
-**WolfEngine UI** enables users to easily apply **WolfEngine Features** into their exploratory data analysis projects.
+## WolfEngine GUI
+**WolfEngine GUI** enables users to easily apply **WolfEngine Features** into their exploratory data analysis projects.
 
 **Functions and Systems**
 
 * Flowchart Function
-    * Automade flowchart based on user's original source code 
+    * Automade flowchart based on the order of user's original source code 
     * Customization flowchart by drag and drop on source code
         * Auto-Parallelization 
         * Auto-Generator 
@@ -64,8 +65,6 @@ Keep up with the latest news, release announcements by subscribing to [wolfengin
 * R, MatLab will be added soon
 
 ## Installation 
-
-* 
 
 ## Contribution guidelines
 
