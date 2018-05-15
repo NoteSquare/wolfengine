@@ -3,6 +3,10 @@
 **WolfEngine** is an open source task process optimizing engine for exploratory data analysis using workflow design. 
 Wolf Engine combines dynamic optimization and asynchronous calculation techniques with an automated system operation. Wolf Engine enables you to automatically optimize your software without revising original source code.
 
+WolfEngine is being actively developed by NoteSquare Inc. which first started the idea to combine many different machine learning algorithms in different libraries. Now, NoteSquare Inc. uses WolfEngine in many task-oriented jobs in the production environment.
+
+Keep up with the latest news, release announcements by subscribing to [wolfengine@notesquare.co.kr]
+
 ## Characteristics
 * Dramatically increase calculation speed 
 * Effectively decrease time in development cycle
@@ -13,8 +17,10 @@ Wolf Engine combines dynamic optimization and asynchronous calculation technique
 
 ## Features
 * Auto-Parallelization 
-* Auto-Generator 
+* Auto-Generator
+    * Enabling the software to use low memory footprint for heavy input data, are supported.
 * Auto-IO-Cache
+    * Caching the task based on its input and output data ensures the fast computation and also pause and continue of the long-running task pipelines.
 * Auto-Scheduler 
     * Scrutinizing the most adaptive optimization techniques based on  user's computing environment.
 
@@ -22,9 +28,6 @@ Wolf Engine combines dynamic optimization and asynchronous calculation technique
 
 ## WolfEngine UI
 **WolfEngine UI** enables users to easily apply **WolfEngine Features** into their exploratory data analysis projects.
-
-Here are core functions of **WolfEngine UI** 
-
 
 **Functions**
 * Flowchart Function
