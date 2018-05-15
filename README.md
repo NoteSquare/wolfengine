@@ -16,6 +16,7 @@ Keep up with the latest news, release announcements by subscribing to [wolfengin
 * **No NEED** to learn optimization skills 
 
 ## How does it works?
+![Pipeline](https://github.com/NoteSquare/wolfengine/blob/master/Pipeline_Wolf_Engine.gif?raw=true)
 
 ## Features
 * Auto-Parallelization 
