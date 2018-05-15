@@ -59,7 +59,7 @@ We use GitHub issues for tracking requests and bugs.
 
 ## License
 
-GNU AGPL v3 
+[GNU Affero General Public License v3.0](LICENSE)
 
 
 
