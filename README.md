@@ -21,9 +21,12 @@ Wolf Engine combines dynamic optimization and asynchronous calculation technique
 ## How does it works?
 
 ## WolfEngine UI
-**WolfEngine UI** let users to easily apply **WolfEngine Features** into your source code.
+**WolfEngine UI** enables users to easily apply **WolfEngine Features** into their exploratory data analysis projects.
 
-**Function**
+Here are core functions of **WolfEngine UI** 
+
+
+**Functions**
 * Flowchart Function
     * Automated flowchart based on user's original source code 
     * Customization flowchart by drag and drop on source code
