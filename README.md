@@ -8,8 +8,8 @@ Wolf Engine combines dynamic optimization and asynchronous calculation technique
 * Effectively decrease time in development cycle
 * Efficiently utilize computer resources 
 * Considerably reduce hardware maintenance costs
-* No need to revise source code 
-* No need to learn optimization skills 
+* **No** need to revise original source code 
+* **No** need to learn optimization skills 
 
 ## Features
 * Auto-Parallelization 
